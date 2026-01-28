@@ -1,0 +1,5 @@
+PyQt5
+deep-translator
+pyperclip
+keyboard
+pyinstaller

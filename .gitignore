@@ -1,0 +1,35 @@
+# 虚拟环境
+.venv/
+
+# 打包文件
+build/
+dist/
+*.spec
+
+# 日志文件
+*.log
+
+# 配置文件
+config.json
+
+# 翻译历史
+translation_history.json
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Windows文件
+Thumbs.db
+Desktop.ini
+
+# 测试文件
+__pycache__/
+*.pyc
