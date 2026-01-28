@@ -48,7 +48,7 @@ class Translator:
             }
             headers = {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer sk-2f494a13f27f410c8e93ba5132763466"  # 用户提供的API密钥
+                "Authorization": "Bearer YOUR_DEEPSEEK_API_KEY"  # 请替换为您自己的DeepSeek API密钥
             }
             response = requests.post(url, json=data, headers=headers, timeout=10)
             if response.status_code == 200:
@@ -122,7 +122,7 @@ class Translator:
             }
             headers = {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer sk-2f494a13f27f410c8e93ba5132763466"  # 用户提供的API密钥
+                "Authorization": "Bearer YOUR_DEEPSEEK_API_KEY"  # 请替换为您自己的DeepSeek API密钥
             }
             response = requests.post(url, json=data, headers=headers, timeout=10)
             if response.status_code == 200:
